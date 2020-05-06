@@ -1,0 +1,25 @@
+.item{
+    list-style: none;
+    margin-right: 20px;
+    font-family: 'Poppins', sans-serif;
+}
+.item li{
+    display: inline-block;
+}
+.item li a{
+    display: block;
+    text-decoration: none;
+    margin: 5px 20px;
+    color: black;
+}
+.item li a:hover{
+    color: #C82333;
+    border-bottom: 3px solid #C82333;
+    text-transform: uppercase;
+}
+.item-display{
+    display: flex;
+   flex-direction: row;
+   align-items: center;
+   width: auto;
+}
